@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div id="s1" >
+    <button onclick="show1()">Q No. 1</button>
+    
+    <button onclick="show2()">Q No. 2</button>
+
+    <button onclick="show3()">Q No. 3</button>
+
+    </div>
+    <div id="question">
+
+    </div>
+
+    <div id="q1">
+        <h1>1) What is the full form of HTML ?</h1>
+
+        <div class="side" >
+        <div id="c1" class="c1" onclick="check1()">a) Hyper Text Mark Of Language</div>
+        <div id="c2" class="c1" onclick="check2()">b) Hyper Text Mark Up Language</div>
+        <div id="c3" class="c1" onclick="check3()">c) Hyper Text Markup Language</div>
+    </div>
+    </div>
+    <div id="q2">
+        <h1>2) What is the full form of PHP ?</h1>
+        <div class="side" >
+            <div id="c4" class="c1" onclick="check11()" >1) Hypertext Preprocessor</div>
+            <div id="c5" class="c1" onclick="check12()" >2) Hypertext Hamro Preprocessor</div>
+        </div>
+    </div> 
+
+    <div id="q3">
+        <h1>3) What is the Full form of CPU ?</h1>
+        <div class="side">
+           <div id="c6" class="c1" onclick="show22()">Centeral Processing Unit</div> 
+           <div id="c7" class="c1" onclick="show23()">Centeral Protecting Unit</div> 
+        </div>
+    </div>
+    
+    <script src="quiz.js" ></script>
+</body>
+</html>
