@@ -1,0 +1,47 @@
+*{
+    background-color: rgb(222, 217, 217);
+    margin-left: 7px;
+}
+#s1{
+      display: flex;
+}
+Button{
+    padding: 15px;
+    margin: 0px 10px 10px 0px;
+}
+
+div{
+   cursor: pointer;
+}
+#q1{
+    visibility: hidden;
+}
+.side{
+    display: flex;
+}
+.c1{
+    margin: 0 30px 20px 0;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 5px;
+    border-top-color: red;
+    border-left-color: red;
+    border-bottom-color:green ;
+    border-right-color:green ;
+}
+#q2{
+    visibility: hidden;   
+}
+#q3{
+    visibility: hidden;
+}
+/* Responsive */
+@media only screen and ( max-width : 576px )
+{
+    .side {
+        display: block ;
+        text-align: center;
+        width: 70%;
+    }
+}
